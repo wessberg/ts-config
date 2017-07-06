@@ -1,6 +1,5 @@
 {
   "compilerOptions": {
-    "typeRoots": [ "./node_modules/@types", "./node_modules/typescript/lib" ],
     "alwaysStrict": true,
     "emitDecoratorMetadata": false,
     "importHelpers": true,
