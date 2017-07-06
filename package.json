@@ -1,9 +1,8 @@
 {
   "name": "@wessberg/ts-config",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Shared rules for Typescript and tslint, used across my OSS projects.",
-  "scripts": {
-  },
+  "scripts": {},
   "keywords": [
     "typescript",
     "tslint",
