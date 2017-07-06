@@ -1,7 +1,7 @@
 {
   "name": "@wessberg/ts-config",
   "version": "0.0.0",
-  "description": "Shared rules for Typescript and tslint, used by my Github projects.",
+  "description": "Shared rules for Typescript and tslint, used across my OSS projects.",
   "scripts": {
   },
   "keywords": [

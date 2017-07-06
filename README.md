@@ -1,5 +1,5 @@
 # ts-config [![NPM version][npm-image]][npm-url]
-> Shared rules for Typescript and tslint, used by my Github projects.
+> Shared rules for Typescript and tslint, used across my OSS projects.
 
 ## Installation
 Simply do: `npm install @wessberg/ts-config`.
