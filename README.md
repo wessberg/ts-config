@@ -7,9 +7,13 @@ Simply do: `npm install @wessberg/ts-config`.
 ## Usage
 
 You can import a `tslint.json` configuration from here: `node_modules/@wessberg/ts-config/tslint/tslint.json`
-You can import a base `tsconfig.json` configuration from here: `node_modules/@wessberg/ts-config/tsconfig/tsconfig.json` and a `node_modules/@wessberg/ts-config/tsconfig/tsconfig.dist.json` which is often used as well.
+You can import a base `tsconfig.json` configuration from here: `node_modules/@wessberg/ts-config/tsconfig/tsconfig.json`.
 
 ## Changelog:
+
+**v0.0.3**:
+
+- Fixed tsconfig.
 
 **v0.0.0**:
 

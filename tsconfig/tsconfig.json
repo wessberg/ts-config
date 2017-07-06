@@ -15,7 +15,6 @@
     "noImplicitReturns": true,
     "noImplicitThis": true,
     "target": "es2017",
-    "outDir": "compiled",
     "lib": [
       "es2015.promise",
       "dom",
@@ -25,7 +24,8 @@
       "es2017.object",
       "es2015.proxy"
     ],
-    "baseUrl": "../",
+    "baseUrl": ".",
+    "outDir": "../../../../compiled",
     "paths": {
       "tslib" : ["node_modules/tslib/tslib.d.ts"]
     }
