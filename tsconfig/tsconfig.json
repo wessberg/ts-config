@@ -1,33 +1,33 @@
 {
-  "compilerOptions": {
-    "alwaysStrict": true,
-    "emitDecoratorMetadata": false,
-    "importHelpers": true,
-    "newLine": "LF",
-    "experimentalDecorators": true,
-    "allowSyntheticDefaultImports": true,
-    "strictNullChecks": true,
-    "moduleResolution": "node",
-    "module": "es2015",
-    "noImplicitAny": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "noImplicitReturns": true,
-    "noImplicitThis": true,
-    "target": "es2017",
-    "lib": [
-      "es2015.promise",
-      "dom",
-      "es6",
-      "scripthost",
-      "es7",
-      "es2017.object",
-      "es2015.proxy"
-    ],
-    "baseUrl": ".",
-    "outDir": "../../../../compiled",
-    "paths": {
-      "tslib" : ["node_modules/tslib/tslib.d.ts"]
-    }
-  }
+	"compilerOptions": {
+		"alwaysStrict": true,
+		"emitDecoratorMetadata": false,
+		"importHelpers": true,
+		"newLine": "LF",
+		"experimentalDecorators": true,
+		"allowSyntheticDefaultImports": true,
+		"strictNullChecks": true,
+		"moduleResolution": "node",
+		"module": "es2015",
+		"noImplicitAny": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"noImplicitReturns": true,
+		"noImplicitThis": true,
+		"target": "es2017",
+		"lib": [
+			"es2015.promise",
+			"dom",
+			"es6",
+			"scripthost",
+			"es7",
+			"es2017.object",
+			"es2015.proxy"
+		],
+		"baseUrl": ".",
+		"outDir": "../../../../compiled",
+		"paths": {
+			"tslib": ["node_modules/tslib/tslib.d.ts"]
+		}
+	}
 }
