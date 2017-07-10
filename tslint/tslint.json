@@ -53,10 +53,6 @@
     ],
     "no-require-imports": true,
     "no-default-export": true,
-    "max-line-length": [
-      true,
-      500
-    ],
     "max-classes-per-file": [
       true,
       1

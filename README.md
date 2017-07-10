@@ -11,6 +11,10 @@ You can import a base `tsconfig.json` configuration from here: `node_modules/@we
 
 ## Changelog:
 
+**v0.0.4**:
+
+- Removed max-line-length rule.
+
 **v0.0.3**:
 
 - Fixed tsconfig.
