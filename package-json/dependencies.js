@@ -1,6 +1,8 @@
-const {addDependencies} = require("./add-dependency-helper");
-
-addDependencies([
+/**
+ * Here's the dependencies our package.json should at least have.
+ * @type {PackageJSONDependency[]}
+ */
+exports.dependencies = [
 	{
 		key: "tslint",
 		value: "latest",
@@ -15,5 +17,10 @@ addDependencies([
 		key: "husky",
 		value: "latest",
 		isDevDependency: true
+	},
+	{
+		key: "tslib",
+		value: "latest",
+		isDevDependency: false
 	}
-]);
+];

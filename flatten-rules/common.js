@@ -2,7 +2,7 @@
  * Common ignore-rules for .npmignore and .gitignore
  * @type {string[]}
  */
-exports.rules = [
+exports.common = [
 	// Directories
 	"/compiled/",
 	"/.idea/",

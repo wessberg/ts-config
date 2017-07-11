@@ -1,6 +1,7 @@
 {
 	"name": "@wessberg/ts-config",
 	"version": "0.0.6",
+	"main": "index.js",
 	"description": "Shared rules for Typescript and tslint, used across my OSS projects.",
 	"repository": {
 		"type": "git",
@@ -16,8 +17,5 @@
 		"tsconfig"
 	],
 	"author": "Frederik Wessberg",
-	"license": "MIT",
-	"devDependencies": {
-		"husky": "^0.14.3"
-	}
+	"license": "MIT"
 }

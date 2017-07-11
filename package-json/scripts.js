@@ -1,6 +1,8 @@
-const {addNpmScripts} = require("./add-npm-scripts-helper");
-
-addNpmScripts({
+/**
+ * Here's the scripts we want to at least have in our package.json
+ * @type {object}
+ */
+exports.scripts = {
 	"clean:dist": "rm -r -f dist",
 	"clean:compiled": "rm -r -f compiled",
 	"clean": "npm run clean:dist && npm run clean:compiled",
@@ -22,4 +24,4 @@ addNpmScripts({
 	"publish:major": "npm version major && git push && npm publish",
 	"publish:minor": "npm version minor && git push && npm publish",
 	"publish:patch": "npm version patch && git push && npm publish"
-});
+};
