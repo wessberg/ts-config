@@ -11,6 +11,10 @@ You can import a base `tsconfig.json` configuration from here: `node_modules/@we
 
 ## Changelog:
 
+**v0.0.6**:
+
+- Added 
+
 **v0.0.5**:
 
 - Added WebStorm Code Style xml to library.

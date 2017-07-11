@@ -1,20 +1,32 @@
 {
-  "name": "@wessberg/ts-config",
-  "version": "0.0.5",
-  "description": "Shared rules for Typescript and tslint, used across my OSS projects.",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/wessberg/ts-config.git"
-  },
-  "bugs": {
-    "url": "https://github.com/wessberg/ts-config/issues"
-  },
-  "scripts": {},
-  "keywords": [
-    "typescript",
-    "tslint",
-    "tsconfig"
-  ],
-  "author": "Frederik Wessberg",
-  "license": "MIT"
+	"name": "@wessberg/ts-config",
+	"version": "0.0.5",
+	"description": "Shared rules for Typescript and tslint, used across my OSS projects.",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/wessberg/ts-config.git"
+	},
+	"bugs": {
+		"url": "https://github.com/wessberg/ts-config/issues"
+	},
+	"scripts": {
+		"tslint": "NODE_ENV=TEST echo \"skipping validate...\"",
+		"validate": "npm run tslint && npm run test",
+		"pretest": "npm run clean:compiled && npm run tsc:test",
+		"test": "NODE_ENV=TEST echo \"skipping tests...\"",
+		"posttest": "npm run clean:compiled",
+		"prepublish": "npm run validate && npm run build",
+		"precommit": "npm run validate",
+		"prepush": "npm run validate",
+		"publish:major": "npm version major && git push && npm publish",
+		"publish:minor": "npm version minor && git push && npm publish",
+		"publish:patch": "npm version patch && git push && npm publish"
+	},
+	"keywords": [
+		"typescript",
+		"tslint",
+		"tsconfig"
+	],
+	"author": "Frederik Wessberg",
+	"license": "MIT"
 }
