@@ -13,6 +13,10 @@ To generate them, run `index.js` inside this library (or just import it from ano
 
 ## Changelog:
 
+**v0.0.12**:
+
+- *main*, *browser*, *module*, *types* and *typings* fields will now be auto-generated.
+
 **v0.0.10**:
 
 - Fixed npmignore.

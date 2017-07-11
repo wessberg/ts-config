@@ -2,6 +2,11 @@
  * A package.json file.
  * @typedef {object} PackageJSON
  * @property {object} scripts
+ * @property {string} main
+ * @property {string} module
+ * @property {string} browser
+ * @property {string} types
+ * @property {string} typings
  */
 
 const {readFileSync, existsSync, writeFileSync} = require("fs");
