@@ -1,11 +1,11 @@
 /src/
 /test/
 /compiled/
-tsconfig.*
+/tsconfig.*
 .gitignore
 /typings/
 .cache
-tslint.json
+/tslint.json
 /.idea/
 /.cache/
 /.vscode/

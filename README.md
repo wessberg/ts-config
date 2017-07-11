@@ -13,6 +13,10 @@ To generate them, run `index.js` inside this library (or just import it from ano
 
 ## Changelog:
 
+**v0.0.10**:
+
+- Fixed npmignore.
+
 **v0.0.9**:
 
 - Fixed issues with rules.
