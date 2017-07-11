@@ -1,11 +1,11 @@
-const {rules} = require("./common");
+const {common} = require("./common");
 
 /**
  * .npmignore rules
  * @type {string[]}
  */
 exports.npmignore = [
-	...rules,
+	...common,
 
 	// Directories
 	"/src/",

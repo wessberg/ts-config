@@ -1,11 +1,11 @@
-const {rules} = require("./common");
+const {common} = require("./common");
 
 /**
  * .gitignore rules
  * @type {string[]}
  */
 exports.gitignore = [
-	...rules,
+	...common,
 
 	// Directories
 	"/node_modules/",
