@@ -13,7 +13,7 @@ You can import a base `tsconfig.json` configuration from here: `node_modules/@we
 
 **v0.0.6**:
 
-- Added 
+- Added various helper functions for auto-generating package.json scripts, package.json dependencies, tsconfig and tslint files, adding files to .npmignore and .gitignore. Just run update/update.js from the root directory of the library that uses ts-config to add the missing files.
 
 **v0.0.5**:
 
