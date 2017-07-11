@@ -9,11 +9,11 @@ exports.npmignore = [
 
 	// Directories
 	"/src/",
-	"tsconfig.*",
+	"/tsconfig.*",
 	".gitignore",
 	"/test/",
 	"/typings/",
 
 	// Individual files
-	"tslint.json"
+	"/tslint.json"
 ];

@@ -12,7 +12,6 @@ exports.common = [
 	// Logs
 	"*.log",
 	"/logs/",
-	"*.log",
 	"npm-debug.log*",
 
 	// Coverage
