@@ -18,7 +18,7 @@ exports.scripts = {
 	"pretest": "npm run clean:compiled && npm run tsc:test",
 	"test": "NODE_ENV=TEST echo \"skipping tests...\"",
 	"posttest": "npm run clean:compiled",
-	"prepublish": "npm run validate && npm run build",
+	"prepublishOnly": "npm run validate && npm run build",
 	"precommit": "npm run validate && exit 0",
 	"prepush": "npm run validate && exit 0",
 	"publish:major": "npm version major && git push && npm publish",
