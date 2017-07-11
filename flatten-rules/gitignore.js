@@ -9,7 +9,6 @@ exports.gitignore = [
 
 	// Directories
 	"/node_modules/",
-	"/compiled/",
 	"/dist/",
 	"package-lock.json"
 ];
