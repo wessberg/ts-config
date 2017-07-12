@@ -1,12 +1,44 @@
 /**
+ * The repository field of a package.json file
+ * @typedef {object} Repository
+ * @property {string} type
+ * @property {string} url
+ */
+
+/**
+ * The engines field of a package.json file
+ * @typedef {object} Engines
+ */
+
+/**
+ * An Author field hos the contact information for the package author
+ * @typedef {object} Author
+ * @property {string|null} name
+ * @property {string|null} email
+ * @property {string|null} url
+ */
+
+/**
+ * The bug field of a package.json file
+ * @typedef {object} Bugs
+ * @property {string} url
+ */
+
+/**
  * A package.json file.
  * @typedef {object} PackageJSON
+ * @property {string} name
  * @property {object} scripts
  * @property {string} main
  * @property {string} module
  * @property {string} browser
+ * @property {string} es2015
  * @property {string} types
  * @property {string} typings
+ * @property {Repository} repository
+ * @property {Bugs} bugs
+ * @property {Author} author
+ * @property {Engines} engines
  */
 
 const {readFileSync, existsSync, writeFileSync} = require("fs");

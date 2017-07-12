@@ -13,6 +13,14 @@ To generate them, run `index.js` inside this library (or just import it from ano
 
 ## Changelog:
 
+**v0.0.13**:
+
+- The *repository* and *bugs* fields will now be auto-detected and added to the package.json file. They are preserved if they exist already in the config.
+- The *author* field will now be auto-generated in the package.json file. Existing info will be preserved. If a shorthand string representation of an author is given, it is parsed and rewritten as an object literal.
+- The *engines* field will now b auto-generated in the package.json file. Existing info will be preserved.
+- The *es2015* field will now be auto-generated in the package.json file.
+- The existing properties of *tslint.json*, *tsconfig.json* and *tsconfig.dist.json* files in the root directory will now be preserved and instead extended. If they don't exist, new ones will be generated. 
+
 **v0.0.12**:
 
 - *main*, *browser*, *module*, *types* and *typings* fields will now be auto-generated.

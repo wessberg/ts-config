@@ -11,6 +11,7 @@ function addMainFields (mainFields) {
 	const hasBrowser = packageJSON.hasOwnProperty("browser");
 	const hasTypes = packageJSON.hasOwnProperty("types");
 	const hasTypings = packageJSON.hasOwnProperty("typings");
+	const hasEs2015 = packageJSON.hasOwnProperty("es2015");
 
 	// Initialize the scripts to an empty object if the package.json file doesn't have any.
 	if (!hasMain) packageJSON.main = mainFields.main;
@@ -18,6 +19,7 @@ function addMainFields (mainFields) {
 	if (!hasBrowser) packageJSON.browser = mainFields.browser;
 	if (!hasTypes) packageJSON.types = mainFields.types;
 	if (!hasTypings) packageJSON.typings = mainFields.typings;
+	if (!hasEs2015) packageJSON.es2015 = mainFields.es2015;
 
 	// Finally, save the new package.json file
 	setPackageJSON(packageJSON);
