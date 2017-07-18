@@ -25,7 +25,7 @@ exports.scripts = {
 	"prepublishOnly": "npm run validate && npm run build",
 	"precommit": "npm run tslint && exit 0",
 	"prepush": "npm run validate && exit 0",
-	"publish:major": "npm run readme:refresh && npm version major && git push && npm publish",
-	"publish:minor": "npm run readme:refresh && npm version minor && git push && npm publish",
-	"publish:patch": "npm run readme:refresh && npm version patch && git push && npm publish"
+	"publish:major": "npm run commit:readme && npm version major && git push && npm publish",
+	"publish:minor": "npm run commit:readme && npm version minor && git push && npm publish",
+	"publish:patch": "npm run commit:readme && npm version patch && git push && npm publish"
 };

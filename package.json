@@ -8,9 +8,9 @@
 		"readme:changelog": "node readme/changelog/helper/add-changelog.js",
 		"readme:refresh": "npm run changelog:generate && npm run readme:changelog",
 		"commit:readme": "npm run readme:refresh && git commit -am \"Updated changelog\" --no-verify",
-		"publish:major": "npm run readme:refresh && npm version major && git push && npm publish",
-		"publish:minor": "npm run readme:refresh && npm version minor && git push && npm publish",
-		"publish:patch": "npm run readme:refresh && npm version patch && git push && npm publish"
+		"publish:major": "npm run commit:readme && npm version major && git push && npm publish",
+		"publish:minor": "npm run commit:readme && npm version minor && git push && npm publish",
+		"publish:patch": "npm run commit:readme && npm version patch && git push && npm publish"
 	},
 	"keywords": [
 		"typescript",

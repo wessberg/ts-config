@@ -110,3 +110,4 @@ To generate them, run `index.js` inside this library (or just import it from ano
   * 0.0.1
   * Updated README
   * First commit
+
