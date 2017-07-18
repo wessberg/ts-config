@@ -6,7 +6,7 @@ exports.scripts = {
 	"changelog:generate": "changelog all -m > CHANGELOG.md",
 	"readme:changelog": "node node_modules/@wessberg/ts-config/readme/changelog/helper/add-changelog.js",
 	"readme:refresh": "npm run changelog:generate && npm run readme:changelog",
-	"commit:readme": "npm run readme:refresh && git commit -am \"Updated changelog\" --no-verify && exit 0",
+	"commit:readme": "npm run readme:refresh && git commit -am \"Updated changelog\" --no-verify || true",
 	"clean:dist": "rm -r -f dist",
 	"clean:compiled": "rm -r -f compiled",
 	"clean": "npm run clean:dist && npm run clean:compiled",
