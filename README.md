@@ -13,6 +13,10 @@ To generate them, run `index.js` inside this library (or just import it from ano
 
 ## Changelog:
 
+**v0.0.14**:
+
+- Allowed '2' as a magic-number.
+
 **v0.0.13**:
 
 - The *repository* and *bugs* fields will now be auto-detected and added to the package.json file. They are preserved if they exist already in the config.
