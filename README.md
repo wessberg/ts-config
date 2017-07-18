@@ -13,6 +13,13 @@ To generate them, run `index.js` inside this library (or just import it from ano
 
 ## Changelog
 
+0.0.17 / 2017-07-19
+===================
+
+  * 0.0.17
+  * Updated changelog
+  * Updated CHANGELOG
+
 0.0.16 / 2017-07-19
 ===================
 
