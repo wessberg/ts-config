@@ -1,18 +1,3 @@
-# ts-config [![NPM version][npm-image]][npm-url]
-> Shared configs and package.json scripts used across my OSS projects.
-
-## Installation
-Simply do: `npm install @wessberg/ts-config`.
-
-## Usage
-
-This library can auto-generate tsconfig.json, tsconfig.dist.json, tslint.json, .gitignore, .npmignore files as well as core package.json scripts and dependencies.
-These are used across my OSS projects.
-
-To generate them, run `index.js` inside this library (or just import it from another script - that will trigger the generation).
-
-## Changelog
-
 0.0.15 / 2017-07-18
 ===================
 

@@ -3,7 +3,15 @@
 	"version": "0.0.15",
 	"main": "index.js",
 	"description": "Shared rules for Typescript and tslint, used across my OSS projects.",
-	"scripts": {},
+	"scripts": {
+		"changelog:generate": "changelog all -m > CHANGELOG.md",
+		"readme:changelog": "node readme/changelog/helper/add-changelog.js",
+		"readme:refresh": "npm run changelog:generate && npm run readme:changelog",
+		"commit:readme": "npm run readme:refresh && git commit -am \"Updated changelog\" --no-verify",
+		"publish:major": "npm run readme:refresh && npm version major && git push && npm publish",
+		"publish:minor": "npm run readme:refresh && npm version minor && git push && npm publish",
+		"publish:patch": "npm run readme:refresh && npm version patch && git push && npm publish"
+	},
 	"keywords": [
 		"typescript",
 		"tslint",
@@ -21,5 +29,8 @@
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/wessberg/ts-config.git"
+	},
+	"dependencies": {
+		"changelog": "^1.4.0"
 	}
 }

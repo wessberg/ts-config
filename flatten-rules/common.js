@@ -41,5 +41,11 @@ exports.common = [
 	".Spotlight-V100",
 	".Trashes",
 	"ehthumbs.db",
-	"Thumbs.db"
+	"Thumbs.db",
+
+	// Certificates
+	"*.pem",
+	"*.p12",
+	"*.crt",
+	"*.csr"
 ];

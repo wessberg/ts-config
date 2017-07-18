@@ -4,6 +4,7 @@
 		"emitDecoratorMetadata": false,
 		"importHelpers": true,
 		"newLine": "LF",
+		"sourceMap": true,
 		"experimentalDecorators": true,
 		"allowSyntheticDefaultImports": true,
 		"strictNullChecks": true,

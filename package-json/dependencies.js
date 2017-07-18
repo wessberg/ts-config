@@ -19,6 +19,11 @@ exports.dependencies = [
 		isDevDependency: true
 	},
 	{
+		key: "changelog",
+		value: "latest",
+		isDevDependency: true
+	},
+	{
 		key: "tslib",
 		value: "latest",
 		isDevDependency: false

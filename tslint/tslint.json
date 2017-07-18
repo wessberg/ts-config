@@ -42,9 +42,7 @@
 			true,
 			"array"
 		],
-		"trailing-comma": [
-			false
-		],
+		"trailing-comma": [true, {"multiline": "never", "singleline": "never"}],
 		"prefer-const": [
 			true,
 			{
@@ -102,6 +100,11 @@
 			100
 		],
 		"no-any": true,
-		"member-access": true
+		"member-access": true,
+		"promise-function-async": true,
+		"no-string-literal": true,
+		"triple-equals": [true, "allow-null-check"],
+		"type-literal-delimiter": true,
+		"variable-name": [true, "ban-keywords", "check-format", "allow-leading-underscore"]
 	}
 }
