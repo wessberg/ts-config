@@ -6,7 +6,7 @@ exports.scripts = {
 	"changelog:generate": "changelog all -m > CHANGELOG.md",
 	"readme:changelog": "node node_modules/@wessberg/ts-config/readme/changelog/helper/add-changelog.js",
 	"readme:refresh": "npm run changelog:generate && npm run readme:changelog",
-	"commit:readme": "npm run readme:refresh && git commit -am \"Updated changelog\" --no-verify || true",
+	"commit:readme": "npm run readme:refresh && git commit -am \"Bumped version\" --no-verify || true",
 	"clean:dist": "rm -r -f dist",
 	"clean:compiled": "rm -r -f compiled",
 	"clean": "npm run clean:dist && npm run clean:compiled",
@@ -25,7 +25,7 @@ exports.scripts = {
 	"prepublishOnly": "npm run validate && npm run build",
 	"precommit": "npm run tslint && exit 0",
 	"prepush": "npm run validate && exit 0",
-	"publish:major": "npm run commit:readme && npm version major && git push && npm publish",
-	"publish:minor": "npm run commit:readme && npm version minor && git push && npm publish",
-	"publish:patch": "npm run commit:readme && npm version patch && git push && npm publish"
+	"publish:major": "npm version major && npm run commit:readme && git push && npm publish",
+	"publish:minor": "npm version minor && npm run commit:readme && git push && npm publish",
+	"publish:patch": "npm version patch && npm run commit:readme && git push && npm publish"
 };
