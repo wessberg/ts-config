@@ -1,6 +1,6 @@
 {
 	"name": "@wessberg/ts-config",
-	"version": "0.0.18",
+	"version": "0.0.19",
 	"main": "index.js",
 	"description": "Shared rules for Typescript and tslint, used across my OSS projects.",
 	"scripts": {
