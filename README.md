@@ -13,6 +13,15 @@ To generate them, run `index.js` inside this library (or just import it from ano
 
 ## Changelog
 
+0.0.16 / 2017-07-19
+===================
+
+  * 0.0.16
+  * Updated changelog
+  * Fixed an issue in the scripts
+  * - Added new tslint rules.
+    - Added new NPM scripts for auto-generating a changelog and updating the one in the README.
+
 0.0.15 / 2017-07-18
 ===================
 
