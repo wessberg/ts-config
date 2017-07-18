@@ -7,7 +7,7 @@
 		"changelog:generate": "changelog all -m > CHANGELOG.md",
 		"readme:changelog": "node readme/changelog/helper/add-changelog.js",
 		"readme:refresh": "npm run changelog:generate && npm run readme:changelog",
-		"commit:readme": "npm run readme:refresh && git commit -am \"Updated changelog\" --no-verify",
+		"commit:readme": "npm run readme:refresh && git commit -am \"Updated changelog\" --no-verify && exit 0",
 		"publish:major": "npm run commit:readme && npm version major && git push && npm publish",
 		"publish:minor": "npm run commit:readme && npm version minor && git push && npm publish",
 		"publish:patch": "npm run commit:readme && npm version patch && git push && npm publish"
