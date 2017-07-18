@@ -1,3 +1,12 @@
+<a name="0.0.19"></a>
+## 0.0.19 (2017-07-18)
+
+* 0.0.19 ([ab93dbd](https://github.com/wessberg/ts-config/commit/ab93dbd))
+* Bumped version ([9ff3377](https://github.com/wessberg/ts-config/commit/9ff3377))
+* Switched to conventional-changelog over changelog for auto-generating changelogs ([bcf7195](https://github.com/wessberg/ts-config/commit/bcf7195))
+
+
+
 <a name="0.0.18"></a>
 ## 0.0.18 (2017-07-18)
 
