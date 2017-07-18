@@ -3,7 +3,7 @@
  * @type {object}
  */
 exports.scripts = {
-	"changelog:generate": "changelog all -m > CHANGELOG.md",
+	"changelog:generate": "conventional-changelog --outfile CHANGELOG.md --release-count 0",
 	"readme:changelog": "node node_modules/@wessberg/ts-config/readme/changelog/helper/add-changelog.js",
 	"readme:refresh": "npm run changelog:generate && npm run readme:changelog",
 	"commit:readme": "npm run readme:refresh && git commit -am \"Bumped version\" --no-verify || true",

@@ -19,7 +19,7 @@ exports.dependencies = [
 		isDevDependency: true
 	},
 	{
-		key: "changelog",
+		key: "conventional-changelog-cli",
 		value: "latest",
 		isDevDependency: true
 	},
