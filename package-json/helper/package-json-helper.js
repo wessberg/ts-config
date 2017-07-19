@@ -35,6 +35,7 @@
  * @property {string} es2015
  * @property {string} types
  * @property {string} typings
+ * @property {string} license
  * @property {Repository} repository
  * @property {Bugs} bugs
  * @property {Author} author

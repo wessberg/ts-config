@@ -5,7 +5,8 @@
 exports.scripts = {
 	"changelog:generate": "conventional-changelog --outfile CHANGELOG.md --release-count 0",
 	"readme:changelog": "node node_modules/@wessberg/ts-config/readme/changelog/helper/add-changelog.js",
-	"readme:refresh": "npm run changelog:generate && npm run readme:changelog",
+	"readme:badges": "node node_modules/@wessberg/ts-config/readme/badge/helper/add-badges.js",
+	"readme:refresh": "npm run changelog:generate && npm run readme:changelog && npm run readme:badges",
 	"commit:readme": "npm run readme:refresh && git commit -am \"Bumped version\" --no-verify || true",
 	"clean:dist": "rm -r -f dist",
 	"clean:compiled": "rm -r -f compiled",

@@ -83,3 +83,6 @@ function capitalize (str) {
 }
 
 exports.replaceReadmeSection = replaceReadmeSection;
+exports.saveReadme = saveReadme;
+exports.getReadme = getReadme;
+exports.getReadmePath = getReadmePath;

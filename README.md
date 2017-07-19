@@ -1,4 +1,25 @@
-# ts-config [![NPM version][npm-image]][npm-url]
+# ts-config
+[![NPM version][npm-version-image]][npm-version-url]
+[![Dev Dependencies][dev-dependencies-image]][dev-dependencies-url]
+
+[dev-dependencies-url]: https://david-dm.org/wessberg/typedetector?type=dev
+
+[dev-dependencies-image]: https://david-dm.org/hub.com/wessberg/ts-config/dev-status.svg
+[![deps][deps-image]][deps-url]
+
+[deps-url]: https://david-dm.org/wessberg/typedetector
+
+[deps-image]: https://david-dm.org/hub.com/wessberg/ts-config/status.svg
+[![License-mit][license-mit-image]][license-mit-url]
+
+[license-mit-url]: https://opensource.org/licenses/MIT
+
+[license-mit-image]: https://img.shields.io/badge/License-MIT-yellow.svg
+
+[npm-version-url]: https://www.npmjs.com/package/@wessberg/ts-config
+
+[npm-version-image]: https://badge.fury.io/js/%40wessberg%2Fts-config.svg
+
 > Shared configs and package.json scripts used across my OSS projects.
 
 ## Installation
@@ -171,7 +192,3 @@ To generate them, run `index.js` inside this library (or just import it from ano
 * 0.0.1 ([00d06b7](https://github.com/wessberg/ts-config/commit/00d06b7))
 * First commit ([75f7540](https://github.com/wessberg/ts-config/commit/75f7540))
 * Updated README ([61618f7](https://github.com/wessberg/ts-config/commit/61618f7))
-
-
-
-
