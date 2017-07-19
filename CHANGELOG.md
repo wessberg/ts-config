@@ -1,3 +1,12 @@
+<a name="0.0.20"></a>
+## 0.0.20 (2017-07-19)
+
+* 0.0.20 ([89b6ad0](https://github.com/wessberg/ts-config/commit/89b6ad0))
+* Added badges and auto-generation of them as well as auto-placements in the README ([5614bad](https://github.com/wessberg/ts-config/commit/5614bad))
+* Bumped version ([ac2aea1](https://github.com/wessberg/ts-config/commit/ac2aea1))
+
+
+
 <a name="0.0.19"></a>
 ## 0.0.19 (2017-07-18)
 
