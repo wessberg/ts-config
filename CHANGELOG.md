@@ -1,3 +1,12 @@
+<a name="0.0.21"></a>
+## 0.0.21 (2017-08-08)
+
+* 0.0.21 ([d67219b](https://github.com/wessberg/ts-config/commit/d67219b))
+* Bumped version ([7e4591c](https://github.com/wessberg/ts-config/commit/7e4591c))
+* Removed an unused tslint rule ([2520aeb](https://github.com/wessberg/ts-config/commit/2520aeb))
+
+
+
 <a name="0.0.20"></a>
 ## 0.0.20 (2017-07-19)
 
