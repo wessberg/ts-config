@@ -67,7 +67,6 @@
 		"no-sparse-arrays": true,
 		"no-shadowed-variable": true,
 		"no-misused-new": true,
-		"no-inferred-empty-object-type": true,
 		"no-eval": true,
 		"no-duplicate-super": true,
 		"no-duplicate-variable": [true, "check-parameters"],
