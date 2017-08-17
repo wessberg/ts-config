@@ -1,3 +1,13 @@
+<a name="0.0.23"></a>
+## 0.0.23 (2017-08-17)
+
+* 0.0.23 ([72e8ef6](https://github.com/wessberg/ts-config/commit/72e8ef6))
+* Added a couple of allowed magic numbers ([fa87351](https://github.com/wessberg/ts-config/commit/fa87351))
+* Bumped version ([7a4a9f9](https://github.com/wessberg/ts-config/commit/7a4a9f9))
+* Updated scripts ([6f9696b](https://github.com/wessberg/ts-config/commit/6f9696b))
+
+
+
 <a name="0.0.22"></a>
 ## 0.0.22 (2017-08-17)
 
