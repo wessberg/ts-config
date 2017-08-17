@@ -1,3 +1,13 @@
+<a name="0.0.22"></a>
+## 0.0.22 (2017-08-17)
+
+* 0.0.22 ([12532e2](https://github.com/wessberg/ts-config/commit/12532e2))
+* Added certs to .gitignore ([77be1e5](https://github.com/wessberg/ts-config/commit/77be1e5))
+* Bumped version ([7df33ea](https://github.com/wessberg/ts-config/commit/7df33ea))
+* Refined scripts. Removed changelog from readme generation ([c2d36c6](https://github.com/wessberg/ts-config/commit/c2d36c6))
+
+
+
 <a name="0.0.21"></a>
 ## 0.0.21 (2017-08-08)
 
