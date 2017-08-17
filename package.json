@@ -5,9 +5,8 @@
 	"description": "Shared rules for Typescript and tslint, used across my OSS projects.",
 	"scripts": {
 		"changelog:generate": "conventional-changelog --outfile CHANGELOG.md --release-count 0",
-		"readme:changelog": "node readme/changelog/helper/add-changelog.js",
 		"readme:badges": "node readme/badge/helper/add-badges.js",
-		"readme:refresh": "npm run changelog:generate && npm run readme:changelog && npm run readme:badges",
+		"readme:refresh": "npm run changelog:generate && npm run readme:badges",
 		"commit:readme": "npm run readme:refresh && git commit -am \"Bumped version\" --no-verify || true",
 		"publish:major": "npm version major && npm run commit:readme && git push && npm publish",
 		"publish:minor": "npm version minor && npm run commit:readme && git push && npm publish",

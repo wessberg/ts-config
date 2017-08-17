@@ -104,6 +104,7 @@
 		"no-string-literal": true,
 		"triple-equals": [true, "allow-null-check"],
 		"type-literal-delimiter": true,
-		"variable-name": [true, "ban-keywords", "check-format", "allow-leading-underscore"]
+		"variable-name": [true, "ban-keywords", "check-format", "allow-leading-underscore"],
+		"no-duplicate-imports": true
 	}
 }
