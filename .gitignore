@@ -29,3 +29,7 @@ npm-debug.log*
 ehthumbs.db
 Thumbs.db
 package-lock.json
+*.pem
+*.p12
+*.crt
+"*.csr"

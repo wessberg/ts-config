@@ -36,3 +36,7 @@ Thumbs.db
 /node_modules/
 /dist/
 package-lock.json
+*.pem
+*.p12
+*.crt
+"*.csr"
