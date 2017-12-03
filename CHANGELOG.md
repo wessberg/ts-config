@@ -1,3 +1,12 @@
+<a name="0.0.24"></a>
+## 0.0.24 (2017-12-03)
+
+* 0.0.24 ([5c20501](https://github.com/wessberg/ts-config/commit/5c20501))
+* Added the tslint language service plugin and removed an unwanted tslint rule (no-unused-expression) ([f5dba21](https://github.com/wessberg/ts-config/commit/f5dba21))
+* Bumped version ([6f4fb6c](https://github.com/wessberg/ts-config/commit/6f4fb6c))
+
+
+
 <a name="0.0.23"></a>
 ## 0.0.23 (2017-08-17)
 
