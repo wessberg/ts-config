@@ -1,6 +1,16 @@
 const {saveReadme, getReadme, getReadmePath} = require("../../helper/readme");
-const {StringUtil} = require("@wessberg/stringutil");
-const stringUtil = new StringUtil();
+
+/**
+ * kebab-cases (dash-cases) the given string.
+ * @param {string} str
+ * @returns {string}
+ */
+function kebabCase (str) {
+	// Lower cases the string
+	let _str = str;
+	if (!/[a-zæøåàáäâëêéèïîíìöòóôüúùû]/.test(_str)) _str = str.toLowerCase();
+	return _str.replace(/(?:_)[A-ZÅÀÁÂÄÆËÊÉÈÏÎÍÌÖÔÒÓØÜÛÚÙ]{2,}|[A-Z]{2,}(?=_)/g, $1 => ` ${ $1.toLowerCase() }`).replace(/[-_+]/g, " ").replace(/[ \t\r]*[A-ZÅÀÁÂÄÆËÊÉÈÏÎÍÌÖÔÒÓØÜÛÚÙ]+[ \t\r]+/g, $1 => ` ${ $1.toLowerCase() } `).replace(/[A-ZÅÀÁÂÄÆËÊÉÈÏÎÍÌÖÔÒÓØÜÛÚÙ]/g, $1 => ` ${ $1.toLowerCase() }`).replace(/^[ \t\r]+/g, "").replace(/\s{2,}/g, " ").replace(/\s+/g, "-");
+}
 
 /**
  * Adds the given Badge to the README
@@ -18,7 +28,7 @@ function addBadgeToReadme ({name, url, imageUrl}) {
 	if (specificBadgeMatch != null) return;
 
 	// Otherwise, generate a badge
-	const dashCasedName = stringUtil.kebabCase(name);
+	const dashCasedName = kebabCase(name);
 	const newBadgeString = `\n[![${name}][${dashCasedName}-image]][${dashCasedName}-url]\n\n` + `[${dashCasedName}-url]: ${url}\n\n` + `[${dashCasedName}-image]: ${imageUrl}`;
 
 	// Check if the README has *any* badge.

@@ -132,6 +132,9 @@
 		"triple-equals": [true, "allow-null-check"],
 		"type-literal-delimiter": true,
 		"variable-name": [true, "ban-keywords", "check-format", "allow-leading-underscore"],
-		"no-duplicate-imports": true
+		"no-duplicate-imports": true,
+		"prefer-readonly": true,
+		"ban-comma-operator": true,
+		"curly": [true, "ignore-same-line"]
 	}
 }
