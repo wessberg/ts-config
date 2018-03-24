@@ -1,3 +1,12 @@
+<a name="0.0.26"></a>
+## <small>0.0.26 (2018-03-24)</small>
+
+* 0.0.26 ([c22398f](https://github.com/wessberg/ts-config/commit/c22398f))
+* Bumped version ([e4d3972](https://github.com/wessberg/ts-config/commit/e4d3972))
+* Changed default options from es2015/umd to es2015/cjs ([0f6ddda](https://github.com/wessberg/ts-config/commit/0f6ddda))
+
+
+
 <a name="0.0.25"></a>
 ## <small>0.0.25 (2018-02-03)</small>
 
