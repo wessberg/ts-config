@@ -1,5 +1,6 @@
 {
 	"compilerOptions": {
+		"skipLibCheck": true,
 		"alwaysStrict": true,
 		"emitDecoratorMetadata": false,
 		"importHelpers": true,
@@ -9,7 +10,7 @@
 		"allowSyntheticDefaultImports": true,
 		"strictNullChecks": true,
 		"moduleResolution": "node",
-		"module": "es2015",
+		"module": "esnext",
 		"noImplicitAny": true,
 		"noUnusedLocals": true,
 		"noUnusedParameters": true,
@@ -17,13 +18,17 @@
 		"noImplicitThis": true,
 		"target": "es2017",
 		"lib": [
-			"es2015.promise",
-			"dom",
-			"es6",
-			"scripthost",
-			"es7",
-			"es2017.object",
-			"es2015.proxy"
+			"ES5",
+			"ES2015",
+			"ES6",
+			"ES7",
+			"ES2016",
+			"ES2017",
+			"ESNext",
+			"DOM",
+			"DOM.iterable",
+			"WebWorker",
+			"ScriptHost"
 		],
 		"baseUrl": ".",
 		"outDir": "../../../../compiled",
