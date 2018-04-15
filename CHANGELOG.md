@@ -1,3 +1,12 @@
+<a name="0.0.27"></a>
+## <small>0.0.27 (2018-04-15)</small>
+
+* 0.0.27 ([f93ea69](https://github.com/wessberg/ts-config/commit/f93ea69))
+* Bumped version ([bb2d618](https://github.com/wessberg/ts-config/commit/bb2d618))
+* Updated tsconfig.json ([f4769df](https://github.com/wessberg/ts-config/commit/f4769df))
+
+
+
 <a name="0.0.26"></a>
 ## <small>0.0.26 (2018-03-24)</small>
 
