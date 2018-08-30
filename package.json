@@ -1,13 +1,9 @@
 {
 	"name": "@wessberg/ts-config",
 	"version": "0.0.27",
-	"main": "index.js",
 	"description": "Shared rules for Typescript and tslint, used across my OSS projects.",
 	"scripts": {
 		"changelog:generate": "conventional-changelog --outfile CHANGELOG.md --release-count 0",
-		"readme:badges": "node readme/badge/helper/add-badges.js",
-		"readme:refresh": "npm run changelog:generate && npm run readme:badges",
-		"commit:readme": "npm run readme:refresh && git commit -am \"Bumped version\" --no-verify || true",
 		"publish:major": "npm version major && npm run commit:readme && git push && npm publish",
 		"publish:minor": "npm version minor && npm run commit:readme && git push && npm publish",
 		"publish:patch": "npm version patch && npm run commit:readme && git push && npm publish"
@@ -31,7 +27,6 @@
 		"url": "https://github.com/wessberg/ts-config.git"
 	},
 	"dependencies": {
-		"tslint-language-service": "^0.9.9"
 	},
 	"devDependencies": {
 		"conventional-changelog-cli": "^2.0.5"
