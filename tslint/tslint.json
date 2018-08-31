@@ -1,5 +1,12 @@
 {
+	"extends": ["tslint-sonarts"],
 	"rules": {
+		"max-union-size": false,
+		"no-nested-template-literals": false,
+		"no-small-switch": false,
+		"parameters-max-number": false,
+		"cognitive-complexity": [true, 65],
+		"no-big-function": false,
 		"semicolon": [
 			true,
 			"always"

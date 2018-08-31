@@ -26,7 +26,9 @@
 		"type": "git",
 		"url": "https://github.com/wessberg/ts-config.git"
 	},
-	"dependencies": {},
+	"dependencies": {
+		"tslint-sonarts": "^1.7.0"
+	},
 	"devDependencies": {
 		"conventional-changelog-cli": "^2.0.5"
 	}
