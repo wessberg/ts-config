@@ -8,6 +8,8 @@
 		"sourceMap": true,
 		"experimentalDecorators": true,
 		"allowSyntheticDefaultImports": true,
+		"strictBindCallApply": true,
+		"esModuleInterop": true,
 		"strictNullChecks": true,
 		"moduleResolution": "node",
 		"module": "esnext",
@@ -16,7 +18,7 @@
 		"noUnusedParameters": true,
 		"noImplicitReturns": true,
 		"noImplicitThis": true,
-		"target": "es2017",
+		"target": "esnext",
 		"lib": [
 			"es5",
 			"es2015",
