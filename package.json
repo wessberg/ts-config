@@ -1,6 +1,6 @@
 {
 	"name": "@wessberg/ts-config",
-	"version": "0.0.31",
+	"version": "0.0.32",
 	"description": "Shared rules for Typescript and tslint, used across my OSS projects.",
 	"scripts": {
 		"publish:major": "npm version major && git push && npm publish",
