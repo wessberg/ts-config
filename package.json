@@ -9,9 +9,9 @@
 	},
 	"files": [
 		"webstorm_code_style.xml",
-		"tsconfig/tsconfig.json",
-		"tslint/tslint.json",
-		"prettier/prettier.config.js"
+		"tsconfig.json",
+		"tslint.json",
+		"prettier.config.js"
 	],
 	"keywords": [
 		"typescript",
@@ -35,5 +35,5 @@
 		"tslint-config-prettier": "^1.17.0",
 		"tslint-sonarts": "^1.8.0"
 	},
-	"tsconfig": "tsconfig/tsconfig.json"
+	"tsconfig": "tsconfig.json"
 }
