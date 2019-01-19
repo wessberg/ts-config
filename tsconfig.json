@@ -33,7 +33,7 @@
 			"webworker.importscripts",
 			"scripthost"
 		],
-		"baseUrl": "./tsconfig",
+		"baseUrl": ".",
 		"outDir": "../../../../compiled",
 		"paths": {
 			"tslib": ["node_modules/tslib/tslib.d.ts"]
