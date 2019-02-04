@@ -11,7 +11,8 @@
 		"webstorm_code_style.xml",
 		"tsconfig.json",
 		"tslint.json",
-		"prettier.config.js"
+		"prettier.config.js",
+		"scaffold.config.js"
 	],
 	"keywords": [
 		"typescript",
@@ -32,8 +33,8 @@
 		"url": "https://github.com/wessberg/ts-config.git"
 	},
 	"dependencies": {
-		"tslint-config-prettier": "^1.17.0",
-		"tslint-sonarts": "^1.8.0"
+		"tslint-config-prettier": "^1.18.0",
+		"tslint-sonarts": "^1.9.0"
 	},
 	"tsconfig": "tsconfig.json"
 }
