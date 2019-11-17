@@ -20,6 +20,7 @@
 		"no-unsafe-any": false,
 		"match-default-export-name": true,
 		"jsdoc-format": true,
+		"no-redundant-jsdoc": true,
 		"class-name": true,
 		"arrow-return-shorthand": true,
 		"array-type": [
