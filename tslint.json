@@ -59,7 +59,7 @@
 		"comment-format": [true, "check-space"],
 		"prefer-while": true,
 		"no-any": true,
-		"member-access": true,
+		"member-access": [true, "no-public"],
 		"promise-function-async": true,
 		"no-string-literal": true,
 		"triple-equals": [true, "allow-null-check"],
