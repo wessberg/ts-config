@@ -94,6 +94,7 @@
 		"prefer-object-spread": "error",
 		"spaced-comment": "error",
 		"use-isnan": "error",
-		"yoda": "error"
+		"yoda": "error",
+		"no-constant-condition": "off"
 	}
 }
