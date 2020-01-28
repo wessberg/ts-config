@@ -10,7 +10,7 @@
 	"files": [
 		"webstorm_code_style.xml",
 		"tsconfig.json",
-		"tslint.json",
+		".eslintrc.json",
 		"prettier.config.js",
 		"scaffold.config.js"
 	],
@@ -32,9 +32,16 @@
 		"type": "git",
 		"url": "https://github.com/wessberg/ts-config.git"
 	},
+	"devDependencies": {
+		"pnpm": "^4.8.0"
+	},
 	"dependencies": {
-		"tslint-config-prettier": "^1.18.0",
-		"tslint-sonarts": "^1.9.0"
+		"@typescript-eslint/eslint-plugin": "2.18.0",
+		"@typescript-eslint/parser": "2.18.0",
+		"eslint": "6.8.0",
+		"eslint-config-prettier": "6.10.0",
+		"eslint-plugin-jsdoc": "21.0.0",
+		"eslint-plugin-import": "2.20.0"
 	},
 	"tsconfig": "tsconfig.json"
 }
