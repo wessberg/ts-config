@@ -96,6 +96,7 @@
 		"spaced-comment": "error",
 		"use-isnan": "error",
 		"yoda": "error",
-		"no-constant-condition": "off"
+		"no-constant-condition": "off",
+		"no-extra-boolean-cast": "off"
 	}
 }
