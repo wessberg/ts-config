@@ -97,6 +97,7 @@
 		"use-isnan": "error",
 		"yoda": "error",
 		"no-constant-condition": "off",
-		"no-extra-boolean-cast": "off"
+		"no-extra-boolean-cast": "off",
+		"no-async-promise-executor": "off"
 	}
 }
