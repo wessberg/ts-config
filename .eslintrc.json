@@ -22,7 +22,38 @@
 	"rules": {
 		"@typescript-eslint/array-type": "error",
 		"@typescript-eslint/await-thenable": "error",
-		"@typescript-eslint/class-name-casing": "error",
+		"@typescript-eslint/naming-convention": [
+			"error",
+			{
+				"selector": "variable",
+				"format": ["strictCamelCase", "UPPER_CASE"]
+			},
+			{
+				"selector": "function",
+				"format": ["strictCamelCase"]
+			},
+			{
+				"selector": "parameter",
+				"format": ["strictCamelCase"]
+			},
+			{
+				"selector": "typeLike",
+				"format": ["StrictPascalCase"]
+			},
+			{
+				"selector": "enum",
+				"format": ["StrictPascalCase"],
+				"suffix": ["Kind"]
+			},
+			{
+				"selector": "memberLike",
+				"format": ["strictCamelCase"],
+				"filter": {
+					"regex": "[- ]",
+					"match": false
+				}
+			}
+		],
 		"@typescript-eslint/consistent-type-definitions": "error",
 		"@typescript-eslint/explicit-member-accessibility": [
 			"error",
@@ -43,8 +74,6 @@
 		"@typescript-eslint/strict-boolean-expressions": "error",
 		"@typescript-eslint/prefer-readonly": "error",
 		"@typescript-eslint/no-non-null-assertion": "off",
-		"@typescript-eslint/camelcase": "off",
-		"@typescript-eslint/interface-name-prefix": "off",
 		"@typescript-eslint/no-empty-interface": "off",
 		"@typescript-eslint/explicit-function-return-type": "off",
 
@@ -98,6 +127,7 @@
 		"yoda": "error",
 		"no-constant-condition": "off",
 		"no-extra-boolean-cast": "off",
-		"no-async-promise-executor": "off"
+		"no-async-promise-executor": "off",
+		"@typescript-eslint/explicit-module-boundary-types": "off"
 	}
 }
