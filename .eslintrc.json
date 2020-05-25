@@ -52,8 +52,30 @@
 				"suffix": ["Kind"]
 			},
 			{
+				"selector": "enumMember",
+				"format": ["UPPER_CASE"]
+			},
+			{
 				"selector": "memberLike",
 				"format": ["strictCamelCase"],
+				"filter": {
+					"regex": "[- ]",
+					"match": false
+				}
+			},
+			{
+				"selector": "memberLike",
+				"modifiers": ["static"],
+				"format": ["strictCamelCase", "UPPER_CASE"],
+				"filter": {
+					"regex": "[- ]",
+					"match": false
+				}
+			},
+			{
+				"selector": "memberLike",
+				"modifiers": ["readonly"],
+				"format": ["strictCamelCase", "UPPER_CASE"],
 				"filter": {
 					"regex": "[- ]",
 					"match": false
