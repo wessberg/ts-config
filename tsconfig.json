@@ -1,5 +1,6 @@
 {
 	"compilerOptions": {
+		"strict": true,
 		"skipLibCheck": true,
 		"alwaysStrict": true,
 		"emitDecoratorMetadata": false,
@@ -8,9 +9,7 @@
 		"sourceMap": true,
 		"experimentalDecorators": true,
 		"allowSyntheticDefaultImports": true,
-		"strictBindCallApply": true,
 		"esModuleInterop": true,
-		"strictNullChecks": true,
 		"moduleResolution": "node",
 		"module": "esnext",
 		"noImplicitAny": true,
