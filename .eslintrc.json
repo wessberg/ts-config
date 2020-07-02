@@ -57,7 +57,7 @@
 			},
 			{
 				"selector": "memberLike",
-				"format": ["strictCamelCase"],
+				"format": ["camelCase"],
 				"filter": {
 					"regex": "[- ]",
 					"match": false
@@ -66,7 +66,7 @@
 			{
 				"selector": "memberLike",
 				"modifiers": ["static"],
-				"format": ["strictCamelCase", "UPPER_CASE"],
+				"format": ["camelCase", "UPPER_CASE"],
 				"filter": {
 					"regex": "[- ]",
 					"match": false
@@ -75,7 +75,7 @@
 			{
 				"selector": "memberLike",
 				"modifiers": ["readonly"],
-				"format": ["strictCamelCase", "UPPER_CASE"],
+				"format": ["camelCase", "UPPER_CASE"],
 				"filter": {
 					"regex": "[- ]",
 					"match": false
