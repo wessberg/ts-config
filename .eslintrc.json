@@ -32,7 +32,11 @@
 			"error",
 			{
 				"selector": "variable",
-				"format": ["strictCamelCase", "UPPER_CASE"]
+				"format": ["strictCamelCase", "UPPER_CASE"],
+				"filter": {
+					"regex": "^_",
+					"match": false
+				}
 			},
 			{
 				"selector": "function",
@@ -40,15 +44,19 @@
 			},
 			{
 				"selector": "parameter",
-				"format": ["strictCamelCase"]
+				"format": ["strictCamelCase"],
+				"filter": {
+					"regex": "^_",
+					"match": false
+				}
 			},
 			{
 				"selector": "typeLike",
-				"format": ["StrictPascalCase"]
+				"format": ["PascalCase"]
 			},
 			{
 				"selector": "enum",
-				"format": ["StrictPascalCase"],
+				"format": ["PascalCase"],
 				"suffix": ["Kind"]
 			},
 			{
@@ -59,7 +67,7 @@
 				"selector": "memberLike",
 				"format": ["camelCase"],
 				"filter": {
-					"regex": "[- ]",
+					"regex": "[- ]|^_",
 					"match": false
 				}
 			},
@@ -68,7 +76,7 @@
 				"modifiers": ["static"],
 				"format": ["camelCase", "UPPER_CASE"],
 				"filter": {
-					"regex": "[- ]",
+					"regex": "[- ]|^_",
 					"match": false
 				}
 			},
@@ -77,7 +85,7 @@
 				"modifiers": ["readonly"],
 				"format": ["camelCase", "UPPER_CASE"],
 				"filter": {
-					"regex": "[- ]",
+					"regex": "[- ]|^_",
 					"match": false
 				}
 			}
