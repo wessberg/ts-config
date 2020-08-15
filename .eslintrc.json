@@ -104,15 +104,10 @@
 		"@typescript-eslint/no-unnecessary-qualifier": "error",
 		"@typescript-eslint/no-unnecessary-type-arguments": "error",
 		"@typescript-eslint/no-unnecessary-type-assertion": "error",
-		"@typescript-eslint/no-use-before-define": "off",
 		"@typescript-eslint/no-var-requires": "error",
 		"@typescript-eslint/promise-function-async": "error",
 		"@typescript-eslint/strict-boolean-expressions": "error",
 		"@typescript-eslint/prefer-readonly": "error",
-		"@typescript-eslint/no-non-null-assertion": "off",
-		"@typescript-eslint/no-empty-interface": "off",
-		"@typescript-eslint/explicit-function-return-type": "off",
-
 		"arrow-body-style": "error",
 		"constructor-super": "error",
 		"curly": [
@@ -125,14 +120,12 @@
 			"smart"
 		],
 		"id-match": "error",
-		"import/no-default-export": "off",
 		"import/no-deprecated": "error",
 		"jsdoc/no-types": "error",
 		"max-classes-per-file": [
 			"error",
 			1
 		],
-		"no-cond-assign": "off",
 		"no-empty": [
 			"error",
 			{
@@ -151,7 +144,6 @@
 		],
 		"no-sparse-arrays": "error",
 		"no-undef-init": "error",
-		"no-underscore-dangle": "off",
 		"no-var": "error",
 		"one-var": [
 			"error",
@@ -161,9 +153,17 @@
 		"spaced-comment": "error",
 		"use-isnan": "error",
 		"yoda": "error",
+		"no-underscore-dangle": "off",
+		"no-cond-assign": "off",
 		"no-constant-condition": "off",
 		"no-extra-boolean-cast": "off",
 		"no-async-promise-executor": "off",
-		"@typescript-eslint/explicit-module-boundary-types": "off"
+		"import/no-default-export": "off",
+		"@typescript-eslint/explicit-module-boundary-types": "off",
+		"@typescript-eslint/no-this-alias": "off",
+		"@typescript-eslint/no-non-null-assertion": "off",
+		"@typescript-eslint/no-empty-interface": "off",
+		"@typescript-eslint/explicit-function-return-type": "off",
+		"@typescript-eslint/no-use-before-define": "off"
 	}
 }
