@@ -134,7 +134,6 @@
 		],
 		"no-eval": "error",
 		"no-new-wrappers": "error",
-		"no-redeclare": "error",
 		"no-sequences": "error",
 		"no-shadow": [
 			"error",
@@ -153,6 +152,7 @@
 		"spaced-comment": "error",
 		"use-isnan": "error",
 		"yoda": "error",
+		"no-redeclare": "off",
 		"no-underscore-dangle": "off",
 		"no-cond-assign": "off",
 		"no-constant-condition": "off",
