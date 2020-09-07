@@ -108,6 +108,8 @@
 		"@typescript-eslint/promise-function-async": "error",
 		"@typescript-eslint/strict-boolean-expressions": "error",
 		"@typescript-eslint/prefer-readonly": "error",
+		"@typescript-eslint/no-shadow": "error",
+		"@typescript-eslint/no-redeclare": "error",
 		"arrow-body-style": "error",
 		"constructor-super": "error",
 		"curly": [
@@ -135,12 +137,6 @@
 		"no-eval": "error",
 		"no-new-wrappers": "error",
 		"no-sequences": "error",
-		"no-shadow": [
-			"error",
-			{
-				"hoist": "all"
-			}
-		],
 		"no-sparse-arrays": "error",
 		"no-undef-init": "error",
 		"no-var": "error",
@@ -153,6 +149,7 @@
 		"use-isnan": "error",
 		"yoda": "error",
 		"no-redeclare": "off",
+		"no-shadow": "off",
 		"no-underscore-dangle": "off",
 		"no-cond-assign": "off",
 		"no-constant-condition": "off",
