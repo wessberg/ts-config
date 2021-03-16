@@ -1,6 +1,6 @@
 {
 	"name": "@wessberg/ts-config",
-	"version": "1.0.20",
+	"version": "1.0.21",
 	"description": "Shared rules for Typescript and tslint, used across my OSS projects.",
 	"scripts": {
 		"publish:major": "npm version major && git push && npm publish",
@@ -32,8 +32,7 @@
 		"type": "git",
 		"url": "https://github.com/wessberg/ts-config.git"
 	},
-	"devDependencies": {
-	},
+	"devDependencies": {},
 	"dependencies": {},
 	"tsconfig": "tsconfig.json"
 }
