@@ -12,7 +12,7 @@
 		"tsconfig.json",
 		".eslintrc.json",
 		"prettier.config.js",
-		"scaffold.config.js"
+		"sandhog.config.js"
 	],
 	"keywords": [
 		"typescript",
