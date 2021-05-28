@@ -12,7 +12,8 @@
 		"tsconfig.json",
 		".eslintrc.json",
 		"prettier.config.js",
-		"sandhog.config.js"
+		"sandhog.config.js",
+		"sandhog.config.json"
 	],
 	"keywords": [
 		"typescript",
