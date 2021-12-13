@@ -17,6 +17,7 @@
 		"noUnusedParameters": true,
 		"noImplicitReturns": true,
 		"noImplicitThis": true,
+		"resolveJsonModule": true,
 		"target": "esnext",
 		"lib": [
 			"es5",
@@ -28,17 +29,13 @@
 			"es2018",
 			"es2019",
 			"es2020",
+			"es2021",
 			"esnext",
 			"dom",
 			"dom.iterable",
 			"webworker",
 			"webworker.importscripts",
 			"scripthost"
-		],
-		"baseUrl": ".",
-		"outDir": "../../../compiled",
-		"paths": {
-			"tslib": ["node_modules/tslib/tslib.d.ts"]
-		}
+		]
 	}
 }
