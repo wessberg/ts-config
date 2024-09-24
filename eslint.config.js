@@ -145,6 +145,7 @@ export default [
 			"@typescript-eslint/no-dynamic-delete": "off",
 			"@typescript-eslint/no-confusing-void-expression": "off",
 			"@typescript-eslint/no-floating-promises": "off",
+			"@typescript-eslint/no-unnecessary-type-parameters": "off",
 			"@typescript-eslint/restrict-template-expressions": [
 				"error",
 				{
@@ -157,10 +158,7 @@ export default [
 					allowConstantLoopConditions: true
 				}
 			],
-			"prettier/prettier": [
-				"error",
-				prettierConfig
-			]
+			"prettier/prettier": ["error", prettierConfig]
 		}
 	},
 	prettier
