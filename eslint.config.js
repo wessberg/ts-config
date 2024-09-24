@@ -2,6 +2,7 @@ import eslint from "@eslint/js";
 import prettier from "eslint-plugin-prettier/recommended";
 import tseslint from "typescript-eslint";
 import jsdoc from "eslint-plugin-jsdoc";
+import prettierConfig from "@wessberg/prettier-config" with {type: "json"};
 
 export default [
 	eslint.configs.recommended,
@@ -153,6 +154,10 @@ export default [
 				{
 					allowConstantLoopConditions: true
 				}
+			],
+			"prettier/prettier": [
+				"error",
+				prettierConfig
 			]
 		}
 	},
