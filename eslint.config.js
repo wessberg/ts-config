@@ -146,6 +146,7 @@ export default [
 			"@typescript-eslint/no-confusing-void-expression": "off",
 			"@typescript-eslint/no-floating-promises": "off",
 			"@typescript-eslint/no-unnecessary-type-parameters": "off",
+			"@typescript-eslint/no-empty-object-type": "off",
 			"@typescript-eslint/restrict-template-expressions": [
 				"error",
 				{
