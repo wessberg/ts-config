@@ -5,15 +5,15 @@
 	"scripts": {
 		"publish:major": "npm version major && git push && npm publish",
 		"publish:minor": "npm version minor && git push && npm publish",
-		"publish:patch": "npm version patch && git push && npm publish"
+		"publish:patch": "npm version patch && git push && npm publish",
+		"prettier": "prettier --write \"./*.{js,ts,json,html,css,md}\""
 	},
+	"type": "module",
 	"files": [
-		"webstorm_code_style.xml",
 		"tsconfig.json",
-		".eslintrc.json",
+		"eslint.config.js",
 		"prettier.config.js",
-		"sandhog.config.js",
-		"sandhog.config.json"
+		"sandhog.config.js"
 	],
 	"keywords": [
 		"typescript",
@@ -33,7 +33,21 @@
 		"type": "git",
 		"url": "https://github.com/wessberg/ts-config.git"
 	},
-	"devDependencies": {},
+	"devDependencies": {
+		"prettier": "^3.3.3",
+		"lint-staged": "^15.2.10"
+	},
 	"dependencies": {},
-	"tsconfig": "tsconfig.json"
+	"peerDependencies": {
+		"eslint": ">=9.x",
+		"@eslint/js": ">=9.x",
+		"eslint-config-prettier": ">=9.x",
+		"eslint-plugin-prettier": ">=5.x",
+		"typescript-eslint": ">=8.x",
+		"eslint-plugin-jsdoc": ">=50.x"
+	},
+	"tsconfig": "tsconfig.json",
+	"lint-staged": {
+		"*": "prettier --ignore-unknown --write"
+	}
 }
