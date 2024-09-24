@@ -30,7 +30,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/wessberg/ts-config.git"
+		"url": "git+https://github.com/wessberg/ts-config.git"
 	},
 	"devDependencies": {
 		"prettier": "^3.3.3",
