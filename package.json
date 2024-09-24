@@ -12,7 +12,6 @@
 	"files": [
 		"tsconfig.json",
 		"eslint.config.js",
-		"prettier.config.js",
 		"sandhog.config.js"
 	],
 	"keywords": [
@@ -34,6 +33,7 @@
 		"url": "https://github.com/wessberg/ts-config.git"
 	},
 	"devDependencies": {
+		"@wessberg/prettier-config": "^1.0.0",
 		"prettier": "^3.3.3",
 		"lint-staged": "^15.2.10"
 	},
@@ -44,10 +44,11 @@
 		"eslint-config-prettier": ">=9.x",
 		"eslint-plugin-prettier": ">=5.x",
 		"typescript-eslint": ">=8.x",
-		"eslint-plugin-jsdoc": ">=50.x"
+		"eslint-plugin-jsdoc": ">=50.2.4"
 	},
 	"tsconfig": "tsconfig.json",
 	"lint-staged": {
 		"*": "prettier --ignore-unknown --write"
-	}
+	},
+	"prettier": "@wessberg/prettier-config"
 }

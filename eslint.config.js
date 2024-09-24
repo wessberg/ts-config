@@ -142,15 +142,6 @@ export default [
 			"@typescript-eslint/explicit-function-return-type": "off",
 			"@typescript-eslint/no-use-before-define": "off",
 			"@typescript-eslint/no-dynamic-delete": "off",
-			"@typescript-eslint/no-floating-promises": [
-				"error",
-				{
-					allowForKnownSafePromises: [
-						{from: "node:test", name: "test"},
-						{from: "test", name: "test"}
-					]
-				}
-			],
 			"@typescript-eslint/restrict-template-expressions": [
 				"error",
 				{
