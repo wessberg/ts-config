@@ -136,6 +136,7 @@ export default [
 			"no-constant-condition": "off",
 			"no-extra-boolean-cast": "off",
 			"no-async-promise-executor": "off",
+			"jsdoc/text-escaping": "off",
 			"@typescript-eslint/explicit-module-boundary-types": "off",
 			"@typescript-eslint/no-this-alias": "off",
 			"@typescript-eslint/no-non-null-assertion": "off",
