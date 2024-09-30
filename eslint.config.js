@@ -148,6 +148,7 @@ export default [
 			"@typescript-eslint/no-floating-promises": "off",
 			"@typescript-eslint/no-unnecessary-type-parameters": "off",
 			"@typescript-eslint/no-empty-object-type": "off",
+			"@typescript-eslint/unbound-method": "off",
 			"@typescript-eslint/restrict-template-expressions": [
 				"error",
 				{
