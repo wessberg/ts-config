@@ -150,6 +150,12 @@ export default [
 			"@typescript-eslint/no-empty-object-type": "off",
 			"@typescript-eslint/unbound-method": "off",
 			"@typescript-eslint/consistent-type-imports": "error",
+			"@typescript-eslint/no-misused-promises": [
+				"error",
+				{
+					checksVoidReturn: false
+				}
+			],
 			"@typescript-eslint/restrict-template-expressions": [
 				"error",
 				{
