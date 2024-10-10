@@ -149,6 +149,7 @@ export default [
 			"@typescript-eslint/no-unnecessary-type-parameters": "off",
 			"@typescript-eslint/no-empty-object-type": "off",
 			"@typescript-eslint/unbound-method": "off",
+			"@typescript-eslint/consistent-type-imports": "error",
 			"@typescript-eslint/restrict-template-expressions": [
 				"error",
 				{
